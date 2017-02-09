@@ -8,5 +8,5 @@ Nº do Algoritmo| Algoritmo
 
 ##Para rodar:
 ####make
-####./tes númerodoalgoritmo < example.in > nomedoarquivodesaida.out
+####./tes numerodoalgoritmo < example.in > nomedoarquivodesaida.out
 
