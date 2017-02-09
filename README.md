@@ -7,6 +7,6 @@ Nº do Algoritmo| Algoritmo
 3| Bucketsort
 
 ##Para rodar:
-###make
+####make
 ####./tes númerodoalgoritmo < example.in > nomedoarquivodesaida.out
 
