@@ -71,10 +71,10 @@ void radixSort(int vector[], int size) {
  void bucketSort(int v[],int tamanho){                                     
          bucket b[numero_bucket];                                      
          int i,j,k;                                                 
- /* 1 */ for(i=0;i<numero_bucket;i++)                    
+ 	 for(i=0;i<numero_bucket;i++)                    
                  b[i].topo=0;
          
- /* 2 */ for(i=0;i<tamanho;i++){                          
+ 	 for(i=0;i<tamanho;i++){                          
                  j=(numero_bucket)-1;
                  while(1){
                          if(j<0)
@@ -88,12 +88,12 @@ void radixSort(int vector[], int size) {
                  }
          }
          
- /* 3 */ for(i=0;i<numero_bucket;i++)                     
+	 for(i=0;i<numero_bucket;i++)                     
                  if(b[i].topo)
                          bubble(b[i].balde,b[i].topo);
          
          i=0;
- /* 4 */ for(j=0;j<numero_bucket;j++){                   
+ 	 for(j=0;j<numero_bucket;j++){                   
                  for(k=0;k<b[j].topo;k++){
                          v[i]=b[j].balde[k];
                          i++;
